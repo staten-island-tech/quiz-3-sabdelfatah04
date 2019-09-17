@@ -1,5 +1,3 @@
-//let bill = calcuateTip(bill);
-///let fullBill = ()
 function tipPaid(bill) {
     let percentage;
     if (bill < 50) {
