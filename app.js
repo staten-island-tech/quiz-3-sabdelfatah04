@@ -11,9 +11,9 @@ function tipPaid(bill) {
 const bill = [140, 45, 270];
 const tips = [tipPaid(bill[0]), tipPaid(bill[1]) , tipPaid(bill[2]) ]
 console.log(tips);
-console.log([bill[0] + tips [0] , bill[1] + tips [1] , bill[2] + tips [2]]);
-
 let final = [bill[0] + tips [0] , bill[1] + tips [1] , bill[2] + tips [2]];
+console.log([final]);
+
 // or let final = [161, 54, 297];
 const copy = final.filter(final => final > 100);
 console.log(copy);
