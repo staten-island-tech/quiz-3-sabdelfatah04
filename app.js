@@ -39,6 +39,10 @@ const dejonInfo = {
 console.log(dejonInfo.getBMI());
 console.log(robInfo.getBMI());
 
-if (dejonInfo.getBMI > robInfo.getBMI){
-    console.log(dejonInfo.fullName + 'has a higher BMI of ' + robInfo.getBMI)
+if (dejonInfo.getBMI() > robInfo.getBMI()){
+    console.log(dejonInfo.fullName + ' has a higher BMI of ' + dejonInfo.getBMI());
+} else if (robInfo > dejonInfo) {
+    console.log(robInfo.fullName + ' has a higher BMI of ' + robInfo.getBMI());
+}else {
+    console.log('They have the same BMI')
 }
